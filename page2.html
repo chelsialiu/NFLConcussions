@@ -1,7 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        
+        <link href="css/ocean.css" rel=stylesheet>
+        
+    <script type=text/javascript>
+            
+    var video = document.querySelector("video");
+    if (window.matchMedia('(prefers-reduced-motion)').matches) {
+      video.removeAttribute("autoplay");
+      video.pause();
+    }
+        const body = document.body;
+        const btn = document.querySelectorAll('.button')[0];
+
+        btn.addEventListener('mouseenter', () => {
+        body.classList.add('show');
+        });
+
+        btn.addEventListener('mouseleave', () => {
+        body.classList.remove('show');
+        });
+
+    </script>
+
     
+    </head>
+    
+        
     <body>
     
     	<video autoplay playsinline muted loop preload poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/oceanshot.jpg">
@@ -19,8 +45,5 @@
         </svg>
     
     </body>
-    
-    </head>
-    
     
 </html>
