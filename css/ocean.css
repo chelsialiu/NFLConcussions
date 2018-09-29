@@ -8,6 +8,13 @@ html, body {
     padding: 0;
     height: 100%;
     width: 100%;
+/*
+    transition-property: opacity;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+*/
+
 }
 header {
   width: 100%;
