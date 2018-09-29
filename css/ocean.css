@@ -145,3 +145,10 @@ body.show {
 	background-repeat: no-repeat;
 	background-size: cover;
 } */
+
+.concussionByPosition {
+    background: black;
+    left: 1000px;
+    position:absolute;
+    image
+}
