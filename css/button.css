@@ -20,13 +20,17 @@ header {
   width: 100%;
   margin: 0 auto;
   position: relative;
-  max-width: 1200px;
     height: 100%;
 }
 
 
 body {
+	align-items: center;
+	height: 100vh;
 	justify-content: center;
+	margin: 0;
+	padding: 0;
+	transition: background-color 2s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 .button {
@@ -37,7 +41,9 @@ body {
 	padding: 20px 30px;
 	position: absolute;
 	text-align: center;
-    bottom: 200px;
+    bottom: 100px;
+    right: 730px;
+    justify-content: center;
 	text-transform: uppercase;
 	transition: 
 		background 5s cubic-bezier(0.19, 1, 0.22, 1),
